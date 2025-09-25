@@ -11,7 +11,7 @@
         <link href="https://fonts.googleapis.com/css?family=Zilla+Slab:600i" rel="stylesheet">
         <script defer src="https://use.fontawesome.com/releases/v6.5.1/js/all.js"></script>
         <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
-        <link rel="icon" href="image/me.jpg" type="image/png">
+        <link rel="icon" href="image/me_at_Rice.jpg" type="image/jpg">
         <style>
          #sticky-sidebar {
              position:fixed;
@@ -90,9 +90,6 @@
                         <a class="nav-link" href="#pubs"><i class="fa fa-pen"></i> Publications</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#teaching"><i class="fa fa-chalkboard"></i> Teaching</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#Hobbies"><i class="fa fa-mountain"></i> Life</a>
                     </li>
                 </ul>
@@ -107,23 +104,15 @@
                         <div class="row">
                             <div class="col-md-8">
                                 <p>
-                                    I am Lu Zhuoyi, an undergraduate student at Nanyang Technological University (NTU) Singapore, 
-                                    pursuing a Bachelor of Mechanical Engineering with specialization in Robotics and Mechatronics Stream. 
-                                    I have exhibited excellence in academic performance throughout my 4 years of Bachelor's degree, achieving a CGPA of 4.64/5.00 
-                                    and earning two consecutive Dean's List certificates for academic years 2023/24 and 2024/25 (Top 5%).
+                                    I am Lu Zhuoyi, an undergraduate at Nanyang Technological University (NTU), Singapore, 
+                                    pursuing a B.Eng. in Mechanical Engineering (Robotics & Mechatronics). 
+                                    I maintain a CGPA of 4.64/5.00 and received the Dean’s List in AY2023/24 and AY2024/25 (Top 5%).
                                 </p>
-                                
+
                                 <p>
-                                    My research interest mainly lies in <nobr style="font-weight: bold;">legged loco-manipulation</nobr>, 
-                                    which aims to amplify manipulation capability by considering whole body control of the legged robot as a mobile base. 
-                                    With a growing fascination for motor dynamics and robot kinematics, I have been working on electromechanical modeling 
-                                    of series-elastic actuators, impedance control strategies, and developing robust control systems for challenging terrain navigation.
-                                </p>
-                                
-                                <p>
-                                    I have gained extensive research experience through internships at the Robotics Research Centre (NTU), Delta Electronics Singapore, 
-                                    and Rice University's Robot-Pi Lab. My work spans from motor parameter estimation and dual-arm manipulation to quadruped jumping 
-                                    control and mobile manipulator development. I am also a co-author of a paper accepted at IROS 2025.
+                                    My research centers on <nobr style="font-weight: bold;">legged loco‑manipulation</nobr> and whole‑body control. 
+                                    I work on electromechanical modeling of series‑elastic actuators, impedance control, and robust control systems 
+                                    for contact‑rich tasks and challenging terrain.
                                 </p>
                                 
                                 <p>
@@ -132,7 +121,7 @@
                                 </p>
                             </div>
                             <div class="col-md-4">
-                                <img src="image/me.png" 
+                                <img src="image/me_at_NASA.png" 
                                      class="img-fluid" 
                                      alt="Zhuoyi Lu"
                                      style="max-width: 100%; height: auto;">
@@ -168,55 +157,100 @@
                     <h1>Projects 🦾</h1>
                     <div style="padding: 10px">
                         <dl>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <dt style="font-size: 1.12em;">HEBI Motor Electromechanical Modeling & Dual-Arm Manipulation</dt>
-                                    <ul>
-                                        <li>Research on Series-Elastic Actuator model of HEBI motors at Robotics Research Centre, NTU</li>
-                                        <li>Designed experiments for motor parameter estimation including Armature constant (Kt) and Velocity constant (Kv) with PWM and PID control</li>
-                                        <li>Built dual planar and 6DOF arms with HEBI motors and established teleoperation-based impedance control</li>
-                                        <li>Derived Forward Kinematics and Jacobian for impedance control implementation</li>
-                                        <li>Developed understanding of how motor dynamics shapes overall robot performance</li>
-                                    </ul>
-                                </div>
-                            </div>
+
                             <div class="row">
                                 <div class="col-md-12">
                                     <dt style="font-size: 1.12em;">Multi-Contact Manipulation Planning Framework</dt>
-                                    <ul>
-                                        <li>Co-authored paper "A Planning Framework for Stable Robust Multi-Contact Manipulation" accepted at IROS 2025</li>
-                                        <li>Helped with multi-manipulator setup (2DOF dual arm + 7DOF Kinova) for planar peg-in-hole task</li>
-                                        <li>Extended to Multiple Peg-in-Hole manipulation scenarios</li>
-                                        <li>Understood principles of optimizing DMP/trajectory parameters using BBO with cost functions modeling robot-world interaction</li>
-                                        <li>Established pipeline integrating perception, planning, and manipulation (ongoing project)</li>
-                                    </ul>
                                 </div>
                             </div>
+                            <div class="row">
+                                <!-- Bullets Column -->
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>IROS 2025 paper on stable, robust multi-contact manipulation</li>
+                                        <li>Built dual-arm + 7DOF Kinova setup for peg-in-hole tasks</li>
+                                        <li>Optimized DMP parameters via BBO; integrated perception–planning–control</li>
+                                    </ul>
+                                </div>
+                                <!-- Video Column -->
+                                <div class="col-md-6">
+                                    <video width="100%" controls>
+                                        <source src="video/IROS2025_RobustDMP.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <dt style="font-size: 1.12em;">XLeRobot Mobile Manipulator Development</dt>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!-- Bullets Column -->
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>Designed a $660 dual-arm mobile manipulator with rapid assembly</li>
+                                        <li>Implemented keyboard/Xbox/VR teleoperation interfaces</li>
+                                        <li>Built PPO-based manipulation with RGB/segmentation inputs (ManiSkill)</li>
+                                    </ul>
+                                </div>
+                                <!-- Video Column -->
+                                <div class="col-md-6">
+                                    <video width="420" height="240" controls>
+                                        <source src="video/xlerobot_demo.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+
                             <div class="row">
                                 <div class="col-md-12">
                                     <dt style="font-size: 1.12em;">Quadruped Jumping Control & Compliance Strategy</dt>
-                                    <ul>
-                                        <li>Designed compliance control strategy for quadruped jumping at Delta Electronics</li>
-                                        <li>Implemented virtual spring-damper system between hip and foot frames for each leg</li>
-                                        <li>Derived Forward/Inverse Kinematics and Jacobian for each leg as 3DOF manipulator</li>
-                                        <li>Modeled Cartesian forces at foot using impedance controller for jumping amplitude and direction control</li>
-                                        <li>Achieved forward/backward and CW/CCW jumping in both Gazebo/Mujoco simulation and real Unitree Go2 robot</li>
-                                        <li>Research inspired by "Quadruped-Frog: Rapid Online Optimization of Continuous Quadruped Jumping"</li>
-                                    </ul>
                                 </div>
                             </div>
                             <div class="row">
-                                <div class="col-md-12">
-                                    <dt style="font-size: 1.12em;">XLeRobot Mobile Manipulator Development</dt>
+                                <!-- Bullets Column -->
+                                <div class="col-md-6">
                                     <ul>
-                                        <li>Developed control codebase for XLeRobot: Fully Autonomous Household Dual-Arm Mobile Robot ($660)</li>
-                                        <li>Implemented Keyboard, XBOX joystick, and VR teleoperation control interfaces</li>
-                                        <li>Built RGB/Semantic Segmentation based Reinforcement Learning (PPO) via ManiSkill</li>
-                                        <li>Developed zero-shot real-world deployment based on Stone's LeRobot Sim2Real codebase</li>
-                                        <li>Worked on low-cost mobile manipulator for extended manipulation workspace</li>
+                                        <li>Developed impedance-based compliance for jumping on Unitree Go2</li>
+                                        <li>Modeled leg kinematics/dynamics and virtual spring–damper behavior</li>
+                                        <li>Validated forward/backward and turning jumps in sim and hardware</li>
                                     </ul>
                                 </div>
+                                <!-- Video Column -->
+                                <div class="col-md-6">
+                                    <video width="420" height="240" controls>
+                                        <source src="video/quadruple_jumping.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
                             </div>
+
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <dt style="font-size: 1.12em;">HEBI dual-arm testbed</dt>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <!-- Bullets Column -->
+                                <div class="col-md-6">
+                                    <ul>
+                                        <li>Modeled series-elastic actuators and estimated motor constants (Kt, Kv)</li>
+                                        <li>Built dual-arm setups; implemented teleoperation-based impedance control</li>
+                                        <li>Derived kinematics/Jacobians to inform control and performance</li>
+                                    </ul>
+                                </div>
+                                <!-- Video Column -->
+                                <div class="col-md-6">
+                                    <video width="420" height="240" controls>
+                                        <source src="video/HEBI-multi-arm.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                </div>
+                            </div>
+
+
                             <div class="row">
                                 <div class="col-md-12">
                                     <dt style="font-size: 1.12em;">URECA Research: Frontal Photopolymerization</dt>
@@ -227,16 +261,7 @@
                                     </ul>
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <dt style="font-size: 1.12em;">Earthquake Damage Modeling</dt>
-                                    <ul>
-                                        <li>Kaggle competition project modeling earthquake Richter scale and impacts</li>
-                                        <li>Modeled earthquake damage grades in Nepal using location and construction data</li>
-                                        <li>Applied data cleaning, one-hot encoding, visualization, Random Forest, Logistic Regression, and KNN</li>
-                                    </ul>
-                                </div>
-                            </div>
+                            
                         </dl>
                     </div>
                     <hr>
@@ -267,13 +292,6 @@
                                                 <a href="publication/A Planning Framework for Stable Robust Multi-Contact Manipulation IROS2025.pdf"><i class="fa fa-file-pdf"></i> PDF</a>
                                             </p>
                                         </div>
-                                        <!-- Image column (1/5 width) -->
-                                        <div class="col-4">
-                                            <img src="image/picture.png" 
-                                                 class="img-fluid" 
-                                                 alt="Multi-contact manipulation research"
-                                                 style="width: 100%; margin-top: 0px;">
-                                        </div>
                                     </div>
                                 </dd>
                             </dl>
@@ -299,14 +317,6 @@
                                         <li>Dean's List Certificate AY2023/24 & AY2024/25</li>
                                     </ul>
                                 </dd>
-                                <dt>Rice University | Jun 2025 - Aug 2025</dt>
-                                <dd>
-                                    <ul>
-                                        <li>Summer Research Intern @RobotPI Lab</li>
-                                        <li>Under Prof. Kaiyu Hang</li>
-                                        <li>Mobile Manipulator Development</li>
-                                    </ul>
-                                </dd>
                                 <dt>Desheng School, Guangdong China | Sep 2016 - Jun 2022</dt>
                                 <dd>
                                     <ul>
@@ -323,29 +333,29 @@
                                 <dt>Robotics Research Centre (RRC) | NTU Singapore | May 2024 - Present</dt>
                                 <dd>
                                     <ul>
-                                        <li>Research on Series-Elastic Actuator model of HEBI motors</li>
-                                        <li>Designed experiments for motor parameter estimation (Kt, Kv)</li>
-                                        <li>Built dual planar and 6DOF arms with HEBI motors</li>
-                                        <li>Established teleoperation-based impedance control</li>
-                                        <li>Derived Forward Kinematics and Jacobian</li>
+                                        <li>Undergraduate Research Assistant</li>
+                                        <li>Advisor: Prof. Domenico Campolo</li>
                                     </ul>
                                 </dd>
                                 <dt>Rice University Robot-Pi Lab | Houston, Texas | Jun 2025 - Aug 2025</dt>
                                 <dd>
                                     <ul>
-                                        <li>Developed control codebase for XLeRobot mobile manipulator</li>
-                                        <li>Implemented Keyboard, XBOX joystick, and VR teleoperation</li>
-                                        <li>Built RGB/Semantic Segmentation based RL (PPO) via ManiSkill</li>
-                                        <li>Zero-shot real-world deployment using Stone's LeRobot Sim2Real</li>
+                                        <li>Summer Research Intern</li>
+                                        <li>Advisor: Prof. Kaiyu Hang</li>
                                     </ul>
                                 </dd>
                                 <dt>Delta Electronics | Singapore | Jan 2025 - May 2025</dt>
                                 <dd>
                                     <ul>
-                                        <li>Quadruped jumping simulation using virtual spring-damper system</li>
-                                        <li>Gazebo and Mujoco simulation with Unitree Go2</li>
-                                        <li>Real-world deployment through Unitree Mujoco and ROS2</li>
-                                        <li>Integrated Mujoco with Pinocchio Library for C++ simulation framework</li>
+                                        <li>Mobile Intelligence Intern</li>
+                                        <li>Advisor: Dr. Caixia Cai (Senior Robotics Scientist) and Mr. Vikash Jeyathevan (Engineer)</li>
+                                    </ul>
+                                </dd>
+                                <dt>Prof K Jimmy Hsia's Group | NTU Singapore | Jul 2023 - Jun 2024</dt>
+                                <dd>
+                                    <ul>
+                                        <li>Undergraduate Research Assistant</li>
+                                        <li>Advisor: Prof. K Jimmy Hsia</li>
                                     </ul>
                                 </dd>
                             </div>
@@ -355,7 +365,45 @@
 
                     <a class="anchor" id="Hobbies"></a> 
                     <h1>Life 🏔️🧗‍🏂🛹🏜️🗽⛹️🚀</h1>
-                    Life is more than just research and robots.
+                    We bring robots to life, but life is more than robots.
+                    <div style="display: flex; justify-content: center;">
+                        <div class="slider" style="display: flex; justify-content: center; align-items: center; position: relative; width: 500px; height: 600px; max-width: 90vw; max-height: 70vh;">
+                            <img id="slide1" src="image/plane_at_NASA.jpg" style="position: absolute; transition: opacity 1s; opacity: 1; max-width: 100%; max-height: 100%; object-fit: contain;">
+                            <img id="slide2" src="image/NTU_student_Rice.jpg" style="position: absolute; transition: opacity 1s; opacity: 0; max-width: 100%; max-height: 100%; object-fit: contain;">
+                        </div>
+                    </div>
+                    <script>
+                        var images = [
+                            "image/plane_at_NASA.jpg",
+                            "image/NTU_student_Rice.jpg",
+                            "image/me_at_Delta.jpg",
+                            "image/me_with_XLerobot.jpg",
+                            "image/me_at_Rice.jpg",
+                        ];
+                        var index = 0;
+
+                        function slide(slide1Id, slide2Id) {
+                            var slide1 = document.getElementById(slide1Id);
+                            var slide2 = document.getElementById(slide2Id);
+
+                            slide1.src = images[index];
+                            slide2.src = images[(index + 1) % images.length];
+
+                            slide1.style.opacity = 1;
+                            slide2.style.opacity = 0;
+
+                            setTimeout(function() {
+                                slide2.style.opacity = 1;
+                                slide1.style.opacity = 0;
+                            }, 200);
+
+                            index = (index + 1) % images.length;
+                        }
+
+                        setInterval(function() {
+                            slide("slide1", "slide2");
+                        }, 3000);
+                    </script>
                     <div style="padding: 20px;">
                         <h2>Extracurricular Activities</h2>
                         <dl>
@@ -379,14 +427,6 @@
                             <li>Dean's List Certificate AY2024/25 (Top 5%), Mechanical Engineering, NTU Singapore</li>
                             <li>URECA Undergraduate Research Program 2023/2024 Certificate</li>
                         </ul>
-                        
-                        <h2>Technical Skills</h2>
-                        <p>
-                            <strong>Data Analysis & Machine Learning:</strong> Python (OOP), Conda/Anaconda<br>
-                            <strong>Robotics:</strong> ROS1/2, C/C++, Arduino, CAN Protocol, SolidWorks<br>
-                            <strong>Simulation:</strong> Mujoco, Maniskill, MATLAB<br>
-                            <strong>Languages:</strong> English (IELTS Band 7), Chinese (Mandarin), Cantonese (Native)
-                        </p>
                     </div>
                 </div>
                 <br>
@@ -404,7 +444,7 @@
                         </div>
                         <div class="col-6 col-xs-12 col-md-12 col-lg-12 col-xl-12">
                             <p>
-                                <img src   = "image/nicee.jpg"
+                                <img src   = "image/me_at_Rice.jpg"
                                      class = "img-fluid full-width"
                                      alt   = "We are impacted by what we change.">
                             </p>
@@ -419,9 +459,9 @@
                                 <dd class="col-10">lzhuoyi001<i class="fa fa-at fa-xs"></i>e.ntu.edu.sg<br></dd>
                             </dl>
                             <dl class="row">
-                                <dt class="col-3"><a href="#"><i class="fab fa-linkedin fa-2x"></i></a></dt>
-                                <dt class="col-3"><a href="#"><i class="fab fa-github fa-2x"></i></a></dt>
-                                <dt class="col-3"><a href="#"><i class="fab fa-google-scholar fa-2x"></i></a></dt>
+                                <dt class="col-3"><a href="https://github.com/Lzhuoyi"><i class="fab fa-linkedin fa-2x"></i></a></dt>
+                                <dt class="col-3"><a href="https://github.com/Lzhuoyi"><i class="fab fa-github fa-2x"></i></a></dt>
+                                <dt class="col-3"><a href="https://github.com/Lzhuoyi"><i class="fab fa-google-scholar fa-2x"></i></a></dt>
                             </dl>
                         </div>
                     </div>
