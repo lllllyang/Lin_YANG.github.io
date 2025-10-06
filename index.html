@@ -116,8 +116,7 @@
                                 </p>
                                 
                                 <p>
-                                    More details can be found in my <a href="CV/Resume_Lu_Zhuoyi.pdf">resume <i class="fa fa-file-pdf"></i></a> 
-                                    and <a href="CV/Statement-Of-Purpose_Lu-Zhuoyi.pdf">statement of purpose <i class="fa fa-file-pdf"></i></a>.
+                                    More details can be found in my <a href="CV/Resume_Lu_Zhuoyi.pdf">resume <i class="fa fa-file-pdf"></i></a>.
                                 </p>
                             </div>
                             <div class="col-md-4">
@@ -169,7 +168,8 @@
                                     <ul>
                                         <li>IROS 2025 paper on stable, robust multi-contact manipulation</li>
                                         <li>Built dual-arm + 7DOF Kinova setup for peg-in-hole tasks</li>
-                                        <li>Optimized DMP parameters via BBO; integrated perception–planning–control</li>
+                                        <li>Motion Planning based on Manipulation Potential under Quasi-Static Assumption.</li>
+                                        <li>Trajectory/DMP Optimization based on Black-Box Optimization (BBO) with interaction-aware cost functions.</li>
                                     </ul>
                                 </div>
                                 <!-- Video Column -->
@@ -190,9 +190,10 @@
                                 <!-- Bullets Column -->
                                 <div class="col-md-6">
                                     <ul>
-                                        <li>Designed a $660 dual-arm mobile manipulator with rapid assembly</li>
-                                        <li>Implemented keyboard/Xbox/VR teleoperation interfaces</li>
-                                        <li>Built PPO-based manipulation with RGB/segmentation inputs (ManiSkill)</li>
+                                        <li>Develop the codebase (e.g., Keyboard, XBOX joystick and VR Teleoperation Control) for <a href="https://github.com/Vector-Wangel/XLeRobot">XLeRobot</a>: Fully
+                                            Autonomous Household Dual-Arm Mobile Robot for $660.</li>
+                                        <li>Derive Kinematics (FK, IK) for 5-DOF LeRobot SO101 Arm</li>
+                                        <li>Work on PPO-based object grasping with RGB/segmentation inputs. Model trained in ManiSkill</li>
                                     </ul>
                                 </div>
                                 <!-- Video Column -->
@@ -213,9 +214,9 @@
                                 <!-- Bullets Column -->
                                 <div class="col-md-6">
                                     <ul>
-                                        <li>Developed impedance-based compliance for jumping on Unitree Go2</li>
-                                        <li>Modeled leg kinematics/dynamics and virtual spring–damper behavior</li>
-                                        <li>Validated forward/backward and turning jumps in sim and hardware</li>
+                                        <li>Developed impedance-based compliance control for quadruped jumping on Unitree Go2</li>
+                                        <li>Derived leg kinematics and dynamics by treating each leg as 3DOF linkage and modelled by virtual spring–damper system</li>
+                                        <li>Validated forward/backward and turning jumps in Gazebo, Mujoco, and in the real world</li>
                                     </ul>
                                 </div>
                                 <!-- Video Column -->
@@ -236,7 +237,7 @@
                                 <!-- Bullets Column -->
                                 <div class="col-md-6">
                                     <ul>
-                                        <li>Modeled series-elastic actuators and estimated motor constants (Kt, Kv)</li>
+                                        <li>Modeled series-elastic actuators and estimated motor constants (Kt, Kv) with electromechanical model.</li>
                                         <li>Built dual-arm setups; implemented teleoperation-based impedance control</li>
                                         <li>Derived kinematics/Jacobians to inform control and performance</li>
                                     </ul>
